@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Node.js and JavaScript-related files
+*.js text eol=lf
+*.json text eol=lf
+
+# React.js specific files
+*.jsx text eol=lf
+*.tsx text eol=lf
+
+# EJS templates
+*.ejs text eol=lf
